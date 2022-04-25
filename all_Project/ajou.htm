@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_ajou.css">
+    <title>Registre info location</title>
+</head>
+<body>
+
+   <div class="animation-area">
+		<ul class="box-area">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	
+	
+
+    <div class="wrapper">
+        <div class="title">
+          Ajouter info du location
+        </div>
+ <form method="post" action="ajou_info.php" >
+        <div class="form">
+          
+           <div class="inputfield">
+              <label>N°TF </label>
+              <input type="text" class="input" name="N_TF">
+           </div>  
+            <div class="inputfield">
+              <label>Adresse</label>
+              <input type="text" class="input" name="adresse">
+           </div>  
+           <div class="inputfield">
+            <label>Usage</label>
+            <input type="text" class="input" name="usage">
+         </div> 
+           <div class="inputfield">
+              <label>Coordonnées GPS</label>
+              <input type="text" class="input" id="co_gps" name="co_gps" >
+           </div>  
+          <div class="inputfield">
+              <label>Prix unitaire</label>
+              <input type="text" class="input" id="p_u" name="p_u">
+           </div> 
+            <div class="inputfield">
+                <label>Prix Globale</label>
+              <input type="text" class="input" id="p_g"name="p_g">
+           </div> 
+            <div class="inputfield">
+              <label>Superficie nette</label>
+              <input type="text" class="input" id="s_n" name="s_n" >
+           </div> 
+          <div class="inputfield">
+              <label>Superficie construite</label>
+              <input type="text" class="input" id="s_c" name="s_c">
+           </div> 
+          <div class="inputfield">
+              <label>Superficie Terrain</label>
+              <input type="text" class="input" id="s_t" name="s_t">
+           </div> 
+          <div class="inputfield">
+              <label>COS</label>
+              <input type="text" class="input" id="cos" name="cos">
+           </div>
+           <div class="inputfield">
+            <label>CUS</label>
+            <input type="text" class="input" id="cus" name="cus">
+         </div>
+         <div class="inputfield">
+            <label>Date de construite</label>
+            <input type="text" class="input" id="d_cn" name="d_cn">
+         </div>
+         <div class="inputfield">
+            <label>Date de d'opération</label>
+            <input type="text" class="input" id="d_op" name="d_op">
+         </div> 
+         <div class="inputfield">
+            <label>Zonning/Destination(pour terrain)</label>
+            <input type="text" class="input" name="zoning">
+         </div>
+         <!--
+         <div class="inputfield">
+            <label>Usage</label>
+            <div class="custom_select">
+              <select>
+                <option value="">Apparetement</option>
+                <option value="male">Magasin</option>
+                <option value="female">Unité</option>
+                <option value="female">Immeuble</option>
+              </select>
+            </div>
+         </div> 
+         <div class="inputfield">
+            <label>Nbre Niveau</label>
+            <div class="custom_select" placeholder="nbre niveau">
+              <select>
+                <option value="">Apparetemen</option>
+                <option value="male">Unité</option>
+                <option value="female">Immeuble</option>
+                <option value="male">Magasin</option>
+            </select>
+            </div>
+         </div> 
+         -->
+         
+          <div class="inputfield">
+            <input type="submit" value="Ajouter" name="Register" class="btn" >
+          </div>
+        </div>
+    </form>
+    </div>
+
+</div>
+
+</body>
+</html>
