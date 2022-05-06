@@ -1,4 +1,4 @@
-# capture d'ecran du projet
+# Capture d'ecran du projet
 ## la page d'accueil de mon projet 
 - 
  ![page](https://user-images.githubusercontent.com/86606579/167144959-7d57156f-a1a1-42ba-86de-f5c3f25faaf4.PNG)
